@@ -10,8 +10,8 @@ html, body {
 }
 
 body {
-    background: rgb(54,77,204);
-    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(29,37,83,1) 100%);
+    background: rgb(12,15,14);
+    background: linear-gradient(0deg, rgba(12,15,14,1) 0%, rgba(109,109,115,1) 100%);
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     background-attachment: fixed;
@@ -54,7 +54,7 @@ h2 {
 
 .links-list li a {
     text-decoration: none;
-    color: rgb(54,77,204);
+    color: rgb(12,15,14);
     font-weight: bolder;
 }
 

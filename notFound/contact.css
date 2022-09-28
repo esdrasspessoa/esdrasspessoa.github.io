@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(12,15,14,1) 0%, rgba(109,109,115,1) 100%);
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    background-attachment: fixed;
+}
+
+.contact, .form, .email, .nome, .mcontact, .mensagem{
+    display: flex;
+    flex-direction: column;
+}
+
+.email, .nome {
+    width: 47%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 50px 50px 0;
+}
+
+.contact {
+    width: 30%;
+    margin-right: 50px;
+}
+
+.form {
+    width: 70%;
+}
+
+h1 {
+    margin-bottom: 60px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+input {
+    BACKGROUND: NONE;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mcontact {
+    padding: 10px 0
+}
+
+.mcontact select {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+textarea {
+    background: none;
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    color: #Ffffff;
+    padding: 10px 0;
+}
+
+button a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+button{
+    background: none;
+    border: solid #ffff;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px;
+    width: 30%;
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}

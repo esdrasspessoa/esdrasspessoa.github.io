@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background: linear-gradient(0deg, rgba(12,15,14,1) 0%, rgba(109,109,115,1) 100%);
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 50px 340px;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #413f3f;
+    padding: 10px 90px;
+}
+
+li {
+    background: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}

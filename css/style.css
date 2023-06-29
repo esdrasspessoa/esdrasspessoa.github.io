@@ -27,7 +27,7 @@ body {
 
 
 .avatar {
-    width: 80px;
+    width: 100px;
     border-radius: 50%;
     border: 2px solid #ffffff;
     box-shadow: 0 0 20px #ffffff;
@@ -81,6 +81,7 @@ p {
     margin: 10px 20px;
     list-style: none;
     background: #ffffff;
+    text-align: center;
 }
 
 .links-list li:hover {
